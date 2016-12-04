@@ -1,0 +1,5 @@
+enable-migrations -ContextTypeName ZenithContext
+
+add-migration -Context ZenithContext -Name FirstMigration
+
+update-database -Context ZenithContext
